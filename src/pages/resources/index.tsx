@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -14,7 +13,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { toast } from "sonner";
-import { FileIcon, ImageIcon, PlusIcon, SearchIcon, FileText, Download, File, FilePdf } from "lucide-react";
+import { FileIcon, ImageIcon, PlusIcon, SearchIcon, FileText, Download, File, FileType } from "lucide-react";
 
 // Dummy data for resources
 const initialResources = [
@@ -114,7 +113,7 @@ export default function ResourcesPage() {
   const getResourceIcon = (type: string) => {
     switch(type) {
       case 'PDF':
-        return <FilePdf className="w-10 h-10 text-red-500" />;
+        return <FileType className="w-10 h-10 text-red-500" />;
       case 'DOCX':
         return <FileText className="w-10 h-10 text-blue-500" />;
       case 'PNG':
