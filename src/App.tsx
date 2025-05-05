@@ -10,6 +10,10 @@ import AuthGuard from "@/components/auth-guard";
 
 import { Layout } from "@/components/layout/layout";
 import DashboardPage from "./pages/dashboard";
+import ProjectsPage from "./pages/projects";
+import TasksPage from "./pages/tasks";
+import WorkLogPage from "./pages/work-log";
+import StudyRoomPage from "./pages/study-room";
 import GroupsPage from "./pages/groups";
 import ResourcesPage from "./pages/resources";
 import NotificationsPage from "./pages/notifications";
@@ -32,11 +36,14 @@ const App = () => (
               <Routes>
                 <Route element={<Layout />}>
                   <Route path="/" element={<DashboardPage />} />
+                  <Route path="/projects" element={<ProjectsPage />} />
+                  <Route path="/tasks" element={<TasksPage />} />
+                  <Route path="/work-log" element={<WorkLogPage />} />
+                  <Route path="/study-room" element={<StudyRoomPage />} />
                   <Route path="/groups" element={<GroupsPage />} />
                   <Route path="/resources" element={<ResourcesPage />} />
                   <Route path="/notifications" element={<NotificationsPage />} />
                   <Route path="/settings" element={<SettingsPage />} />
-                  {/* Add other protected routes here */}
                 </Route>
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/signup" element={<SignupPage />} />

@@ -11,7 +11,11 @@ import {
   Users,
   FileBox,
   Bell,
-  Settings
+  Settings,
+  CheckSquare,
+  BookOpen,
+  ClipboardList,
+  Clock
 } from "lucide-react";
 
 interface SidebarProps {
@@ -28,8 +32,12 @@ export function Sidebar({ className }: SidebarProps) {
   
   const navItems = [
     { name: "Dashboard", path: "/", icon: Home },
+    { name: "Projects", path: "/projects", icon: ClipboardList },
+    { name: "Tasks", path: "/tasks", icon: CheckSquare },
     { name: "Groups", path: "/groups", icon: Users },
     { name: "Resources", path: "/resources", icon: FileBox },
+    { name: "Work Log", path: "/work-log", icon: Clock },
+    { name: "Study Room", path: "/study-room", icon: BookOpen },
     { name: "Notifications", path: "/notifications", icon: Bell },
     { name: "Settings", path: "/settings", icon: Settings },
   ];
