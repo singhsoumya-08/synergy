@@ -31,17 +31,6 @@
 | Auth & DB    | Supabase Auth + Supabase Realtime DB         |
 | Versioning   | Git + GitHub                                 |
 
----
-
-## 📸 Screenshots
-
-<details>
-<summary>📌 Click to expand</summary>
-
-![Dashboard](https://user-images.githubusercontent.com/example/dashboard.png)
-![Group Workspace](https://user-images.githubusercontent.com/example/group.png)
-
-</details>
 
 ---
 
