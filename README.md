@@ -59,4 +59,33 @@ npm i
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
+## 👥 Team
 
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/singhsoumya-08">
+        <img src="https://github.com/singhsoumya-08.png" width="100px;" alt="Soumya Singh"/><br />
+        <sub><b>Soumya Singh</b></sub>
+      </a><br/>
+      <a href="https://github.com/singhsoumya-08"><img src="https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github&logoColor=white"/></a>
+      <a href="https://www.linkedin.com/in/soumya-singh-69774624b/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white"/></a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/ak-8225">
+        <img src="https://github.com/ak-8225.png" width="100px;" alt="Akshay Kumar"/><br />
+        <sub><b>Akshay Kumar</b></sub>
+      </a><br/>
+      <a href="https://github.com/ak-8225"><img src="https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github&logoColor=white"/></a>
+      <a href="https://www.linkedin.com/in/akshay-kumar-b61aa624b/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white"/></a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/kuhu42">
+        <img src="https://github.com/kuhu42.png" width="100px;" alt="Anushka Srivastava"/><br />
+        <sub><b>Anushka Srivastava</b></sub>
+      </a><br/>
+      <a href="https://github.com/kuhu42"><img src="https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github&logoColor=white"/></a>
+      <a href="https://linkedin.com/in/kuhu42"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white"/></a>
+    </td>
+  </tr>
+</table>
